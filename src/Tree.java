@@ -67,7 +67,7 @@ class Node {
         //And so since it's a binary search tree the
         // last rectangle at that position is the highest level
 
-        if (current.leftX <= x && current.rightX >= x && current.bottomY <= y && current.topY >= y) {
+        if (isInBounds(current, x, y)) {
             if (current.left != null && y <= current.left.topY) {
                 return findMaxRectangle(current.left, x, y) == null ? current._rectangle :
                         findMaxRectangle(current.left, x, y);
@@ -83,6 +83,10 @@ class Node {
         }
         //in case that not exists eny rectangle on this place
         return null;
+    }
+
+    private static boolean isInBounds(Node current, int x, int y) {
+        return current.leftX <= x && current.rightX >= x && current.bottomY <= y && current.topY >= y;
     }
 
 }

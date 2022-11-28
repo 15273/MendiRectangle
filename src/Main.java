@@ -12,7 +12,7 @@ public class Main {
         Rectangle rectangle1 = new Rectangle(0, 5, 0, 5);
         Rectangle rectangle2 = new Rectangle(0, 5, 2, 2);
         Rectangle rectangle3 = new Rectangle(0, 5, 3, 3);
-        Rectangle rectangle4 = new Rectangle(0, 5, 1, 3);
+        Rectangle rectangle4 = new Rectangle(0, 5, 4, 3);
         Rectangle rectangle5 = new Rectangle(0, 5, 1, 3);
         Rectangle rectangle6 = new Rectangle(0, 5, 1, 3);
         Collection<IRectangle> rectangles = new java.util.ArrayList<>(Collections.emptyList());
