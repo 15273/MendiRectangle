@@ -85,6 +85,7 @@ class Node {
         return null;
     }
 
+
     private static boolean isInBounds(Node current, int x, int y) {
         return current.leftX <= x && current.rightX >= x && current.bottomY <= y && current.topY >= y;
     }
