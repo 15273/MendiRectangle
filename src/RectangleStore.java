@@ -11,8 +11,7 @@ public class RectangleStore implements IRectanglesStore {
     /**
      * @param bounds     Symbolizes the border within which the rectangles are located
      * @param rectangles the list of the rectangles to store
-     *                   this method used to build the binary tree
-     *                   average time complexity O(n log n)   space complexity O(n log n)
+     *                   average time complexity O(1)   space complexity O(1)
      **/
     public RectangleStore(IRectangle bounds, Collection<IRectangle> rectangles) {
         this.rectangles = rectangles;
