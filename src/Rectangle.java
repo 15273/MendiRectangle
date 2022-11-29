@@ -51,8 +51,10 @@ public class Rectangle implements IRectangle {
                 ", _bottom=" + _bottom +
                 '}';
     }
+
     /**
-     * return the aria of the rectangle*/
+     * return the aria of the rectangle
+     */
     @Override
     public Properties getProperties() {
         Properties rectangleProps = new Properties();

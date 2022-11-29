@@ -5,6 +5,18 @@ import java.util.Collections;
 
 
 public class Main {
+
+//    public static int sortArr(int i, int j, int [][]arr, int []arr2, int x){
+//
+//    }
+//    public static int sortArr(int i, int j, int [][]arr, int []arr2, int x, int y){
+//        if (arr[i + 1][j] > arr[i][j + 1]){
+//            arr2[x] = arr[i][j + 1];
+//
+//        }
+//
+//    }
+
     public static void main(String[] args) {
 
         Rectangle bounds = new Rectangle(0, 5, 0, 5);
@@ -58,5 +70,12 @@ public class Main {
             System.out.println(rectangle.toString() + "\n");
         }
         System.out.println(rectangle1.getProperties());
+
+
+        int[][] arr = new int[][]{{2, 5, 35},
+                {3, 7, 40},
+                {10, 50, 60}};
+
+
     }
 }

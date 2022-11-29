@@ -71,8 +71,7 @@ class Node {
             if (current.left != null && y <= current.left.topY) {
                 return findMaxRectangle(current.left, x, y) == null ? current._rectangle :
                         findMaxRectangle(current.left, x, y);
-            }
-            else
+            } else
                 return current._rectangle;
         }
         if (y >= current.topY) {
